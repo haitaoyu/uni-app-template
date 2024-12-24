@@ -1,5 +1,6 @@
 # uni-app-template
 
+## 前言
 本项目是一个 uni-app（Vue 3.0 版本）的模板项目，包含以下内容：
 - 合理的目录划分
 - 使用 Promise 二次封装的 uni 请求
