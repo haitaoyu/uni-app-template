@@ -1,0 +1,7 @@
+view,
+text,
+image,
+input,
+textarea {
+  box-sizing: border-box;
+}

@@ -1,0 +1,81 @@
+{
+	"tabBar": {
+		"color": "#909399",
+		"selectedColor": "#32c57b",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/tabs/home",
+				"iconPath": "static/tabbar/home_off.png",
+				"selectedIconPath": "static/tabbar/home_on.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/tabs/guide",
+				"iconPath": "static/tabbar/guide_off.png",
+				"selectedIconPath": "static/tabbar/guide_on.png",
+				"text": "指南"
+			},
+			{
+				"pagePath": "pages/tabs/mine",
+				"iconPath": "static/tabbar/mine_off.png",
+				"selectedIconPath": "static/tabbar/mine_on.png",
+				"text": "我的"
+			}
+		]
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/tabs/home",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/tabs/guide",
+			"style": {
+				"navigationBarTitleText": "指南"
+			}
+		},
+		{
+			"path": "pages/tabs/mine",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}
+	],
+	"subPackages": [
+		{
+			"root": "pages/home",
+			"pages": [
+				{
+					"path": "reserve/index",
+					"style": {
+						"navigationBarTitleText": "预约"
+					}
+				},
+				{
+					"path": "counter/index",
+					"style": {
+						"navigationBarTitleText": "Pinia 使用示例"
+					}
+				}
+			]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^u--(.*)": "uview-plus/components/u-$1/u-$1.vue",
+			"^up-(.*)": "uview-plus/components/u-$1/u-$1.vue",
+			"^u-([^-].*)": "uview-plus/components/u-$1/u-$1.vue"
+		}
+	},
+}
