@@ -1,6 +1,6 @@
 <!-- 公共组件 -->
 <template>
-  <div></div>
+  <view>示例公共组件</view>
 </template>
 
 <script setup></script>
