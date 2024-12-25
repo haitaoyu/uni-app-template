@@ -1,3 +1,4 @@
+<!-- 示例页面 -->
 <template>
   <view class="wrapper">
     <image src="../static/top_bg.png" mode="widthFix" class="top-bg"></image>
